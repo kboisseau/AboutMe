@@ -20,23 +20,25 @@ function questionOne() {
   }
   // }
 }
-
 questionOne();
 
-// while (loopCheck !== true) {
-let responseTwo = prompt('Did i break my arm falling in a ditch? "Yes or No"?').toLowerCase();
+function questionTwo() {
 
-if (responseTwo === 'yes' || responseTwo === 'y') {
-  // console.log('Great answer!');
-  alert('Great answer!');
-  loopCheck = true;
-} else if (responseTwo === 'no' || responseTwo === 'n') {
-  // console.log('Sorry, that is incorrect.');
-  alert('Sorry, that is incorrect.');
-  loopCheck = true;
+  // while (loopCheck !== true) {
+  let responseTwo = prompt('Did i break my arm falling in a ditch? "Yes or No"?').toLowerCase();
+
+  if (responseTwo === 'yes' || responseTwo === 'y') {
+    // console.log('Great answer!');
+    alert('Great answer!');
+    loopCheck = true;
+  } else if (responseTwo === 'no' || responseTwo === 'n') {
+    // console.log('Sorry, that is incorrect.');
+    alert('Sorry, that is incorrect.');
+    loopCheck = true;
+  }
+  // }
 }
-// }
-
+questionTwo();
 
 
 // while (loopCheck !== true) {
