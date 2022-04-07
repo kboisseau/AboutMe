@@ -40,7 +40,7 @@ function questionTwo() {
 }
 questionTwo();
 
-function questionTwo() {
+function questionThree() {
 
   // while (loopCheck !== true) {
   let responseThree = prompt('I speak french. "Yes or No"?').toLowerCase();
@@ -58,21 +58,22 @@ function questionTwo() {
 }
 questionThree();
 
+function questionFour() {
 
-// while (loopCheck !== true) {
-let responseFour = prompt('I recently moved to Washington. "Yes or No"?').toLowerCase();
+  // while (loopCheck !== true) {
+  let responseFour = prompt('I recently moved to Washington. "Yes or No"?').toLowerCase();
 
-if (responseFour === 'yes' || responseFour === 'y') {
-  // console.log('Great answer!');
-  alert('Great answer!');
-  loopCheck = true;
-} else if (responseFour === 'no' || responseFour === 'n') {
-  // console.log('Sorry, that is incorrect.');
-  alert('Sorry, that is incorrect.');
-  loopCheck = true;
+  if (responseFour === 'yes' || responseFour === 'y') {
+    // console.log('Great answer!');
+    alert('Great answer!');
+    loopCheck = true;
+  } else if (responseFour === 'no' || responseFour === 'n') {
+    // console.log('Sorry, that is incorrect.');
+    alert('Sorry, that is incorrect.');
+    loopCheck = true;
+  }
+  // }
 }
-// }
-
-
+questionFour();
 
 
