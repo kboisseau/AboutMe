@@ -1,26 +1,27 @@
 'use strict';
 
-
-
 let siteVistor = prompt('What is your name?');
 let loopCheck = false;
 
 alert(`Welcome, ${siteVistor}! I would like to play a game. Please answer "Yes" or "No".`);
 
-// while (loopCheck !== true) {
-let responseOne = prompt('I drive a wrx. "Yes or No"?').toLowerCase();
+function questionOne() {
+  // while (loopCheck !== true) {
+  let responseOne = prompt('I drive a wrx. "Yes or No"?').toLowerCase();
 
-if (responseOne === 'yes' || responseOne === 'y') {
-  // console.log('Great answer!');
-  alert('Great answer!');
-  loopCheck = true;
-} else if (responseOne === 'no' || responseOne === 'n') {
-  // console.log('Sorry, that is incorrect.');
-  alert('Sorry, that is incorrect.');
-  loopCheck = true;
+  if (responseOne === 'yes' || responseOne === 'y') {
+    // console.log('Great answer!');
+    alert('Great answer!');
+    loopCheck = true;
+  } else if (responseOne === 'no' || responseOne === 'n') {
+    // console.log('Sorry, that is incorrect.');
+    alert('Sorry, that is incorrect.');
+    loopCheck = true;
+  }
+  // }
 }
-// }
 
+questionOne();
 
 // while (loopCheck !== true) {
 let responseTwo = prompt('Did i break my arm falling in a ditch? "Yes or No"?').toLowerCase();
