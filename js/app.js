@@ -40,20 +40,23 @@ function questionTwo() {
 }
 questionTwo();
 
+function questionTwo() {
 
-// while (loopCheck !== true) {
-let responseThree = prompt('I speak french. "Yes or No"?').toLowerCase();
+  // while (loopCheck !== true) {
+  let responseThree = prompt('I speak french. "Yes or No"?').toLowerCase();
 
-if (responseThree === 'yes' || responseThree === 'y') {
-  // console.log('Great answer!');
-  alert('Great answer!');
-  loopCheck = true;
-} else if (responseThree === 'no' || responseThree === 'n') {
-  // console.log('Sorry, that is incorrect.');
-  alert('Sorry, that is incorrect.');
-  loopCheck = true;
+  if (responseThree === 'yes' || responseThree === 'y') {
+    // console.log('Great answer!');
+    alert('Great answer!');
+    loopCheck = true;
+  } else if (responseThree === 'no' || responseThree === 'n') {
+    // console.log('Sorry, that is incorrect.');
+    alert('Sorry, that is incorrect.');
+    loopCheck = true;
+  }
+  // }
 }
-// }
+questionThree();
 
 
 // while (loopCheck !== true) {
